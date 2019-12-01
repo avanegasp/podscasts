@@ -49,21 +49,31 @@ header label:hover{
     text-decoration: none;
 }
 
-/* section banner */
+/* section first */
 
 .first{
     padding: 20px;
 }
 
-.paragraph-first p{
-    font-family: IBMPlexMono-Medium;
+
+
+.paragraph-first{
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     color: #060A24;
     letter-spacing: 0;
+    line-height: 24px;
+}
+
+.paragraph-second p{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 18px;
+    color: #060A24;
+    letter-spacing: 0;
     text-align: center;
-    line-height: 22px;
+    line-height: 24px;
     background: #00F3BB;
-    /* padding: 5px; */
+    padding: 5px;
 }
 
 
@@ -87,8 +97,12 @@ header label:hover{
     padding: 8px 0;
     text-transform: uppercase;
     /* text-align: center; */
-    
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 64px;
+    color: #060A24;
+    letter-spacing: 0;
 }
+
 .title-first span { 
     position: relative;
     left: -10px;
@@ -132,8 +146,22 @@ header label:hover{
         transition: all 0.5s;
     }
 
-    /* section banner */
+    /* section first */
 
+    .title-first h1{
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .paragraph-first{
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .paragraph-second{
+        font-size: 16px;
+        line-height: 22px;
+    }
     
 
 }
