@@ -136,7 +136,32 @@ header label:hover{
   .episodes-content{
       background-color: palegreen;
   }
+  
+  /* Section themes */
 
+  .icon-themes{ 
+      margin-left: auto;
+      margin-right: auto;
+      width: 35%;
+      display: block;
+  }
+
+  /* Section last */
+
+  .last{
+      background-color: red;
+  }
+
+  /* Footer */
+
+  .text-footer h2{
+      text-align: center;
+  }
+
+  .footer-icons {
+    display: flex;
+    justify-content: space-around;
+}
 
 
 @media (max-width:320px){
@@ -237,7 +262,7 @@ header label:hover{
     }
 
     .overlapping-text{
-        position: absolute;
+        /* position: absolute; */
         z-index: -2;
         margin-top: 405px;
         padding: 20px;
@@ -256,9 +281,34 @@ header label:hover{
     .themes{
         position: relative;
         /* height: 500px; */
-        background-color: palegreen;
+        /* background-color: palegreen; */
         z-index: -1;
+        /* margin-bottom: 130px; */
       }
+
+    .icon-themes img{
+        margin-top: 120px;
+    }
+
+    /* .icon-themes .icon-four img{
+        margin-bottom: 150px;
+
+    } */
+
+    .icon-themes svg{
+        margin-bottom: -37px;
+        margin-left: -104px;
+    }
+
+    /* Section Icons */
+
+    /* Footer */
+
+    footer{
+        padding: 0 0 20px 0;
+    }
+
+    
 
 }
 
